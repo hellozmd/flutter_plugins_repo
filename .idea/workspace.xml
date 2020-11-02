@@ -22,7 +22,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27ec6924-5a02-48d9-8699-f4ab111ab2d3" name="Default Changelist" comment="Add flutter push plugin" />
+    <list default="true" id="27ec6924-5a02-48d9-8699-f4ab111ab2d3" name="Default Changelist" comment="Add flutter push plugin">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/mbc_push_flutter/example/ios/.symlinks/plugins/mbc_push/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/mbc_push_flutter/example/ios/.symlinks/plugins/mbc_push/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/mbc_push_flutter/example/ios/.symlinks/plugins/mbc_push/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/packages/mbc_push_flutter/example/ios/.symlinks/plugins/mbc_push/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/mbc_push_flutter/example/ios/.symlinks/plugins/mbc_push/android/libs/mbcpush-debug.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/mbc_push_flutter/example/ios/.symlinks/plugins/mbc_push/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/packages/mbc_push_flutter/example/ios/.symlinks/plugins/mbc_push/example/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/mbc_push_flutter/example/ios/.symlinks/plugins/mbc_push/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/mbc_push_flutter/example/ios/.symlinks/plugins/mbc_push/example/pubspec.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,22 +97,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add flutter push plugin" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="248" y="158" width="1222" height="846" key="CommitChangelistDialog2" timestamp="1604300003958">
+    <state x="248" y="158" width="1222" height="846" key="CommitChangelistDialog2" timestamp="1604300355271">
       <screen x="42" y="23" width="2006" height="1129" />
     </state>
-    <state x="248" y="158" width="1222" height="846" key="CommitChangelistDialog2/42.23.2006.1129@42.23.2006.1129" timestamp="1604300003958" />
-    <state x="629" y="321" key="Vcs.Push.Dialog.v2" timestamp="1604300293591">
-      <screen x="43" y="23" width="2005" height="1129" />
+    <state x="248" y="158" width="1222" height="846" key="CommitChangelistDialog2/42.23.2006.1129@42.23.2006.1129" timestamp="1604300355271" />
+    <state x="628" y="321" key="Vcs.Push.Dialog.v2" timestamp="1604300366162">
+      <screen x="42" y="23" width="2006" height="1129" />
     </state>
-    <state x="628" y="321" key="Vcs.Push.Dialog.v2/42.23.2006.1129@42.23.2006.1129" timestamp="1604300011108" />
+    <state x="628" y="321" key="Vcs.Push.Dialog.v2/42.23.2006.1129@42.23.2006.1129" timestamp="1604300366162" />
     <state x="629" y="321" key="Vcs.Push.Dialog.v2/43.23.2005.1129@43.23.2005.1129" timestamp="1604300293591" />
     <state x="549" y="383" key="git4idea.merge.GitPullDialog" timestamp="1604300283982">
       <screen x="43" y="23" width="2005" height="1129" />
     </state>
     <state x="549" y="383" key="git4idea.merge.GitPullDialog/43.23.2005.1129@43.23.2005.1129" timestamp="1604300283982" />
-    <state x="554" y="437" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604300218738">
-      <screen x="43" y="23" width="2005" height="1129" />
+    <state x="553" y="437" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604300421751">
+      <screen x="42" y="23" width="2006" height="1129" />
     </state>
+    <state x="553" y="437" key="git4idea.remote.GitConfigureRemotesDialog/42.23.2006.1129@42.23.2006.1129" timestamp="1604300421751" />
     <state x="554" y="437" key="git4idea.remote.GitConfigureRemotesDialog/43.23.2005.1129@43.23.2005.1129" timestamp="1604300218738" />
   </component>
 </project>

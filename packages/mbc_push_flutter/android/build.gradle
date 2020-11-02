@@ -69,5 +69,5 @@ dependencies {
     // gson解析的依赖
     implementation 'com.google.code.gson:gson:2.8.0'
     // Flyme
-    implementation 'com.meizu.flyme.internet:push-internal:3.9.7'
+//    implementation 'com.meizu.flyme.internet:push-internal:3.9.7'
 }
