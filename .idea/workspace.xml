@@ -24,11 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="27ec6924-5a02-48d9-8699-f4ab111ab2d3" name="Default Changelist" comment="Add flutter push plugin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/mbc_push_flutter/example/ios/.symlinks/plugins/mbc_push/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/mbc_push_flutter/example/ios/.symlinks/plugins/mbc_push/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/mbc_push_flutter/example/ios/.symlinks/plugins/mbc_push/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/packages/mbc_push_flutter/example/ios/.symlinks/plugins/mbc_push/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/mbc_push_flutter/example/ios/.symlinks/plugins/mbc_push/android/libs/mbcpush-debug.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/mbc_push_flutter/example/ios/.symlinks/plugins/mbc_push/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/packages/mbc_push_flutter/example/ios/.symlinks/plugins/mbc_push/example/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/mbc_push_flutter/example/ios/.symlinks/plugins/mbc_push/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/mbc_push_flutter/example/ios/.symlinks/plugins/mbc_push/example/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604299997103</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update flutter push plugin configuration">
+      <created>1604302729934</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604302729934</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,18 +96,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add flutter push plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add flutter push plugin" />
+    <MESSAGE value="Update flutter push plugin configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update flutter push plugin configuration" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="248" y="158" width="1222" height="846" key="CommitChangelistDialog2" timestamp="1604300355271">
-      <screen x="42" y="23" width="2006" height="1129" />
+    <state x="247" y="158" width="1222" height="846" key="CommitChangelistDialog2" timestamp="1604302729712">
+      <screen x="41" y="23" width="2007" height="1129" />
     </state>
+    <state x="247" y="158" key="CommitChangelistDialog2/41.23.2007.1129@41.23.2007.1129" timestamp="1604302729712" />
     <state x="248" y="158" width="1222" height="846" key="CommitChangelistDialog2/42.23.2006.1129@42.23.2006.1129" timestamp="1604300355271" />
-    <state x="628" y="321" key="Vcs.Push.Dialog.v2" timestamp="1604300366162">
-      <screen x="42" y="23" width="2006" height="1129" />
+    <state x="627" y="321" key="Vcs.Push.Dialog.v2" timestamp="1604302745204">
+      <screen x="41" y="23" width="2007" height="1129" />
     </state>
+    <state x="627" y="321" key="Vcs.Push.Dialog.v2/41.23.2007.1129@41.23.2007.1129" timestamp="1604302745204" />
     <state x="628" y="321" key="Vcs.Push.Dialog.v2/42.23.2006.1129@42.23.2006.1129" timestamp="1604300366162" />
     <state x="629" y="321" key="Vcs.Push.Dialog.v2/43.23.2005.1129@43.23.2005.1129" timestamp="1604300293591" />
+    <state x="938" y="360" width="800" height="490" key="find.popup" timestamp="1604303046197">
+      <screen x="42" y="23" width="2006" height="1129" />
+    </state>
+    <state x="938" y="360" width="800" height="490" key="find.popup/42.23.2006.1129@42.23.2006.1129" timestamp="1604303046197" />
     <state x="549" y="383" key="git4idea.merge.GitPullDialog" timestamp="1604300283982">
       <screen x="43" y="23" width="2005" height="1129" />
     </state>
