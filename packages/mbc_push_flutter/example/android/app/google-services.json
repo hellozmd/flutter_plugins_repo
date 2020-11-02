@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "29458074507",
+    "firebase_url": "https://test123-7d106.firebaseio.com",
+    "project_id": "test123-7d106",
+    "storage_bucket": "test123-7d106.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29458074507:android:4f443feb73621f39bfbd8e",
+        "android_client_info": {
+          "package_name": "com.oocl.testhuaweipush"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29458074507-9shknsgdq7agjfuc3j2dvvvtuhjrm6k7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oocl.testhuaweipush",
+            "certificate_hash": "6f8c958d4ca17981ab63eabf17e557ca874995ed"
+          }
+        },
+        {
+          "client_id": "29458074507-13r2vh9j7ll8elsls0arrr69qipp1h03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO1tU9zN5q7IdLFsKMgbnf7H70rKeGW_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29458074507-13r2vh9j7ll8elsls0arrr69qipp1h03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.oocl.mbc.mbc_push">
+        <application>
+            <!-- Cancel HUAWEI auto init -->
+            <meta-data
+                android:name="push_kit_auto_init_enabled"
+                android:value="false" />
+
+            <!-- Cancel FCM auto init -->
+            <meta-data
+                android:name="firebase_messaging_auto_init_enabled"
+                android:value="false" />
+
+            <!-- Notification data receiver -->
+            <receiver
+                android:name="com.oocl.mbc.mbc_push.MBCNotificationRecv"
+                android:exported="false">
+                <intent-filter>
+                    <action android:name="com.oocl.mbc.notification.recv" />
+                </intent-filter>
+            </receiver>
+
+            <!-- HW service -->
+            <service
+                android:name="com.oocl.mbc.service.MBCHWService"
+                android:exported="false">
+                <intent-filter>
+                    <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+                </intent-filter>
+            </service>
+
+            <!-- FCM service -->
+            <service
+                android:name="com.oocl.mbc.service.MBCFCMService"
+                android:exported="false">
+                <intent-filter>
+                    <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                </intent-filter>
+            </service>
+        </application>
+</manifest>

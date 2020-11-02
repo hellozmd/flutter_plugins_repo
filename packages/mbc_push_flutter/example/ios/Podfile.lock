@@ -1,0 +1,47 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Flutter (1.0.0)
+  - mbc_push (0.0.1):
+    - AFNetworking (~> 4.0)
+    - Flutter
+    - UICKeyChainStore (~> 2.2.1)
+  - UICKeyChainStore (2.2.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - mbc_push (from `.symlinks/plugins/mbc_push/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - UICKeyChainStore
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  mbc_push:
+    :path: ".symlinks/plugins/mbc_push/ios"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  mbc_push: 3e0a172f94f3898346ca1928183b056e883fe4a3
+  UICKeyChainStore: ba3bff2c762b12db1e516f395c837dd25298b05e
+
+PODFILE CHECKSUM: b1f7a399522c118a74b177b13c01eca692aa7e6d
+
+COCOAPODS: 1.8.0

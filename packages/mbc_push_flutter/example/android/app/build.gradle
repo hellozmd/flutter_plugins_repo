@@ -1,0 +1,108 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+apply plugin: 'com.android.application'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+apply plugin: 'com.huawei.agconnect'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 28
+
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+//        applicationId "com.oocl.mbc.mbc_push_example"
+        applicationId "com.oocl.testhuaweipush"
+        minSdkVersion 23
+        targetSdkVersion 28
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+    }
+
+    signingConfigs {
+        config {
+            keyAlias 'test0'
+            keyPassword 'password'
+            storeFile file('../test0.jks')
+            storePassword 'password'
+        }
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.config
+        }
+        release {
+            signingConfig signingConfigs.config
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    flavorDimensions "mbc"
+    productFlavors {
+        prod {
+            dimension "mbc"
+            manifestPlaceholders = [
+                    JPUSH_PKGNAME : "com.oocl.testhuaweipush",
+                    JPUSH_APPKEY : "5a12f2ffa46a80fa0099b625", //JPush 上注册的包名对应的 Appkey.
+                    JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.
+                    NC_APPID: "d2a61920-1c9f-11ea-8b2b-a1f0876a7732"
+            ]
+        }
+        qa {
+            dimension "mbc"
+            manifestPlaceholders = [
+                    JPUSH_PKGNAME : "com.oocl.testhuaweipush",
+                    JPUSH_APPKEY : "5a12f2ffa46a80fa0099b625", //JPush 上注册的包名对应的 Appkey.
+                    JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.
+                    NC_APPID: "d2a61920-1c9f-11ea-8b2b-a1f0876a7732"
+            ]
+        }
+        pp {
+            dimension "mbc"
+            manifestPlaceholders = [
+                    JPUSH_PKGNAME : "com.oocl.testhuaweipush",
+                    JPUSH_APPKEY : "5a12f2ffa46a80fa0099b625", //JPush 上注册的包名对应的 Appkey.
+                    JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.
+                    NC_APPID: "d2a61920-1c9f-11ea-8b2b-a1f0876a7732"
+            ]
+        }
+    }
+
+    repositories {
+        flatDir {
+            // 由于Library module中引用了 fusion 库的 aar，在多 module 的情况下，
+            // 其他的module编译会报错，所以需要在所有工程的repositories
+            // 下把Library module中的libs目录添加到依赖关系中
+            dirs 'libs','../mbc_push/libs'
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
